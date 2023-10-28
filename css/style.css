@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  background-color: skyblue;
+}
+body .generator {
+  text-align: center;
+}
+body .generator h1 {
+  color: white;
+  padding: 2rem;
+  background-color: black;
+  font-size: 3rem;
+  border-radius: 40px;
+}
+body .generator h2 {
+  margin-top: 2rem;
+  font-size: 70px;
+}
+body .generator button {
+  margin-top: 2rem;
+  background-color: transparent;
+  border: 1px solid black;
+  width: 220px;
+  font-size: 23px;
+  border-radius: 10px;
+  height: 60px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
